@@ -21,6 +21,9 @@ body {
   background-attachment: fixed;
   {% endif %}
   overflow-wrap: break-word;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 p {
   line-height: 1.5;
@@ -811,6 +814,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   background-color: #FFF;
   border-radius: 0;
   color: {{ site.text-col | default: "#404040" }};
+  padding: 0.75rem 1rem;
 }
 @media (min-width: 768px) {
   .pagination .page-item .page-link {
