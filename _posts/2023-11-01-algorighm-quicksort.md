@@ -6,8 +6,8 @@ cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [algorithms, sorting]
+author: Bruce Wang
 ---
-
 ## Quicksort
 Quick sort is a divide and conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways.
 Every time we partition the array, we get two subarrays. The pivot is in its final sorted position. The elements in left subarray are smaller than the pivot, and the elements in right subarray are greater than the pivot. Then, we apply the same steps recursively to the subarrays.
