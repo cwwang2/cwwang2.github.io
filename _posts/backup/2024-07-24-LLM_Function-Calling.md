@@ -32,6 +32,4 @@ print(result)
 
 ## Agent
 
-from
-
 
