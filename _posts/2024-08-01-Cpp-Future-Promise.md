@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Quicksort
-subtitle: sorting algorithm
+title: Future and Promise in C++ 
+subtitle: C++
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [algorithms, sorting]
+tags: [programming, C++]
 author: Bruce Wang
 ---
 
